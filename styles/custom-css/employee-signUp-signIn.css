@@ -1,0 +1,99 @@
+body {
+    color: #495057;
+    max-width: 1440px;
+
+}
+
+.container-fluid {
+    padding-bottom: 0 !important;
+    width: 100vw !important;
+}
+
+.section-wrapper {
+  width: 100vw;
+
+} 
+
+
+.signUp-img-div{
+  display: block;
+  background: no-repeat url("../../img/side_image_employee_signup.jpg");
+  background-size: 100% auto cover;
+  /* width: 614px !important; */
+}
+
+.signIn-img-div{
+  display: block;
+  background: no-repeat url("../../img/side_image_employee_signin.jpg");
+  background-size: 100% auto cover;
+  /* width: 614px !important; */
+}
+
+.form-div {
+      padding: 2rem;
+  }
+    
+  .smallTitle {
+color: #B5B5B5;
+font-size: 16px;
+line-height: 24px;
+}
+
+.bigTitle {
+color: #084482;
+font-weight: 500;
+font-size: 32px;
+line-height: 42px;
+}
+
+label {
+font-size: 18px;
+line-height: 27px;
+color: #1F2430;
+}
+
+.form-control{
+border-radius: 5px;
+border: 1px solid #b5b5b5;
+padding: 25px;
+}
+
+input::placeholder {
+font-size: 16px;
+line-height: 24px;
+color: rgba(178, 178, 178, 0.58);
+}
+
+#policy-text {
+line-height: 50px;
+}
+
+#signup-btn{
+    color: #ffffff;
+    /* width: 572px;
+    height: 68px; */
+    background: #00AEFF;
+    border: 1px solid #00AEFF;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+  .facebook-btn {
+    color: #ffffff;
+    /* width: 264px;
+    height: 63px; */
+    background: #3B5998;
+    box-shadow: 0px 4px 10px rgba(98, 102, 110, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.google-btn {
+    color: #ffffff;
+    /* width: 264px;
+    height: 63px; */
+    background: #DB4A39;
+    box-shadow: 0px 4px 10px rgba(98, 102, 110, 0.1);
+    border-radius: 5px;
+    padding: 15px;
+} 
