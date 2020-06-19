@@ -1,39 +1,31 @@
 body {
     color: #495057;
-    max-width: 1440px;
+}
 
+ .custom-container {
+  max-width: 1440px;
 }
 
 .container-fluid {
-    padding-bottom: 0 !important;
-    width: 100vw !important;
+  padding-bottom: 0 !important;
 }
-
-.section-wrapper {
-  width: 100vw;
-
-} 
-
 
 .signUp-img-div{
   display: block;
-  background: no-repeat url("../../img/side_image_employee_signup.jpg");
+  background: no-repeat url("../../img/employee_signup_image.png");
   background-size: 100% auto cover;
+  padding-left: 15px;
   /* width: 614px !important; */
 }
 
 .signIn-img-div{
   display: block;
-  background: no-repeat url("../../img/side_image_employee_signin.jpg");
+  background: no-repeat url("../../img/employee_signin_image.png");
   background-size: 100% auto cover;
   /* width: 614px !important; */
 }
-
-.form-div {
-      padding: 2rem;
-  }
     
-  .smallTitle {
+.smallTitle {
 color: #B5B5B5;
 font-size: 16px;
 line-height: 24px;
@@ -64,7 +56,7 @@ line-height: 24px;
 color: rgba(178, 178, 178, 0.58);
 }
 
-#policy-text {
+#terms-policy {
 line-height: 50px;
 }
 
@@ -72,10 +64,39 @@ line-height: 50px;
     color: #ffffff;
     /* width: 572px;
     height: 68px; */
-    background: #00AEFF;
-    border: 1px solid #00AEFF;
+   border: 1px solid #00AEFF;
     box-sizing: border-box;
     border-radius: 5px;
+}
+
+#signup-btn, #signup-btn:visited {
+  background-color: #00AEFF !important;
+}
+
+#signup-btn:hover{
+  background-color: #337ab7 !important;
+} 
+
+#signup-btn:active{
+  background-color: #084482 !important;
+} 
+
+hr {
+  color: #084482;
+  border: .5px solid #084482;
+}
+
+.login-link {
+  color: #00aeff;
+  text-decoration: none;
+}
+.login-link:hover {
+  color: #337ab7;
+  text-decoration: none;
+}
+.login-link:active {
+  color: #084482;
+  text-decoration: none;
 }
 
   .facebook-btn {
