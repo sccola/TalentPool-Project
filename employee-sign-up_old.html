@@ -66,21 +66,21 @@
                 <p class="smallTitle">Create a profile to join the 1,000+ graduates to get connected with pontential employers.</p>
             </div>
 
-            <form class="needs-validation" novalidate id="employeeSignUpForm">
+            <form class="needs-validation" novalidate>
                 <div class="row">
                     <div class="col-md mb-3">
-                        <label for="firstname">First Name</label>
+                        <label for="fname">First Name</label>
                         <div class="input-group">
-                            <input type="text" class="form-control " id="firstname" placeholder="e.g. John" required>
+                            <input type="text" class="form-control " id="fname" placeholder="e.g. John" required>
                             <div class="invalid-feedback">
                             Your First Name is required.
                             </div>
                         </div>
                     </div>
                     <div class="col-md mb-3">
-                        <label for="lastname">Last Name</label>
+                        <label for="lname">Last Name</label>
                         <div class="input-group">
-                            <input type="text" class="form-control " id="lastname" placeholder="e.g. Doe" required>
+                            <input type="text" class="form-control " id="lname" placeholder="e.g. Doe" required>
                             <div class="invalid-feedback">
                                 Your Last Name is required.
                             </div>
@@ -97,30 +97,29 @@
                         </div>
                     </div>
                     <div class="col-md mb-3">
+                        <label for="gradClass">Graduation Class</label>
+                        <input type="number" class="form-control" id="gradClass" min="2013" max="2020" placeholder="e.g. 2020" required>
+                        <div class="invalid-feedback">
+                            Your Graduation Year is required as 4 digits.
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="row">
+                    <div class="col-md mb-3">
                         <label for="password">Password</label>
                         <input type="password" class="form-control" id="password" minlength="8" placeholder="at least 8 characters" required>
                         <div class="invalid-feedback">
                             Minimum of 8 characters is required.
                         </div>
                     </div>
-                    
-                </div> 
-                
-                <div class="row">
                     <div class="col-md mb-3">
-                        <label for="phone_no">Phone Number</label>
-                        <input type="phone" class="form-control" id="phone_no"  placeholder="+2348090000123" required>
-                        <div class="invalid-feedback">
-                            Your Phone No. is required.
-                        </div>
-                    </div>
-                    <!-- <div class="col-md mb-3">
-                        <label for="confirm_password">Confirm Password</label>
-                        <input type="password" class="form-control" id="confirm_password" minlength="8" placeholder="at least 8 characters" required>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirmPassword" minlength="8" placeholder="at least 8 characters" required>
                         <div class="invalid-feedback">
                             The passwords entered did not match.
                         </div>
-                    </div> -->
+                    </div>
                 </div> 
 
                 <div class="row">
@@ -232,6 +231,6 @@
     <script src="../../js/bootstrap-js/popper.js"></script>
     <script src="../../js/bootstrap-js/jquery.js"></script>
     <script src="../../js/bootstrap-js/bootstrap.js"></script>
-    <script src="../../js/custom-js/employee-signUp-signIn2.js"></script>
+    <script src="../../js/custom-js/employee-signUp-signIn.js"></script>
 </body>
 </html>
